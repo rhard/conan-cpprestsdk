@@ -9,5 +9,5 @@ if [[ "$(uname -s)" == 'Darwin' ]]; then
     fi
     pyenv activate conan
 fi
-conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
+conan remote add bcr https://api.bintray.com/conan/bincrafters/public-conan
 python build.py
